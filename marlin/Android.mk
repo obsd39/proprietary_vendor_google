@@ -64,17 +64,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vzw_msdc_api
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/app/vzw_msdc_api/vzw_msdc_api.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
@@ -87,9 +76,9 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollment
+LOCAL_MODULE := HotwordEnrollmentWCD9335
 LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentWCD9335/HotwordEnrollmentWCD9335.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -171,49 +160,9 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := QtiTelephonyServicelibrary
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/framework/QtiTelephonyServicelibrary.jar
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := VerizonUnifiedSettings
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/framework/VerizonUnifiedSettings.jar
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := embmslibrary
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/framework/embmslibrary.jar
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilhook
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcsservice
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/framework/rcsservice.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
