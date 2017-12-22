@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:system/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/google/marlin/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:system/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/google/marlin/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:system/etc/cne/Nexus/VZW/VZW_profiles.xml \
+    vendor/google/marlin/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.android.vzwomatrigger.xml:system/etc/permissions/com.android.vzwomatrigger.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
@@ -26,18 +27,21 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.services.xml:system/etc/permissions/com.verizon.services.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-marlin.xml:system/etc/permissions/privapp-permissions-marlin.xml \
-    vendor/google/marlin/proprietary/etc/permissions/vzw_sso_permissions.xml:system/etc/permissions/vzw_sso_permissions.xml \
     vendor/google/marlin/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/google/marlin/proprietary/lib64/vendor.qti.atcmdfwd@1.0.so:system/lib64/vendor.qti.atcmdfwd@1.0.so \
-    vendor/google/marlin/proprietary/lib64/vendor.qti.qcril.am@1.0.so:system/lib64/vendor.qti.qcril.am@1.0.so
+    vendor/google/marlin/proprietary/priv-app/embms/oem/config_params.xml:system/priv-app/embms/oem/config_params.xml \
+    vendor/google/marlin/proprietary/priv-app/embms/oem/provisioning_params.xml:system/priv-app/embms/oem/provisioning_params.xml \
+    vendor/google/marlin/proprietary/priv-app/embms/oem/verizon_config_params.txt:system/priv-app/embms/oem/verizon_config_params.txt
 
 PRODUCT_PACKAGES += \
     VZWAPNLib \
     CNEService \
-    HotwordEnrollmentWCD9335 \
+    HotwordEnrollmentOKGoogleWCD9335 \
+    HotwordEnrollmentTGoogleWCD9335 \
+    HotwordEnrollmentXGoogleWCD9335 \
+    QAS_DVC_MSP \
     QtiTelephonyService \
     RCSBootstraputil \
     SSRestartDetector \
@@ -45,9 +49,6 @@ PRODUCT_PACKAGES += \
     SprintDM \
     SprintHM \
     TimeService \
-    VZWAPNService \
-    VZWAVS \
-    VzwLcSilent \
     VzwOmaTrigger \
     atfwd \
     colorservice \
@@ -59,4 +60,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     radioconfig \
     shutdownlistener \
+    vzw_msdc_api \
     VerizonUnifiedSettings
