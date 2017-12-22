@@ -27,10 +27,20 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.services.xml:system/etc/permissions/com.verizon.services.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-marlin.xml:system/etc/permissions/privapp-permissions-marlin.xml \
+    vendor/google/marlin/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/google/marlin/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
+    vendor/google/marlin/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/google/marlin/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/google/marlin/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/google/marlin/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/google/marlin/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/google/marlin/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/google/marlin/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/google/marlin/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/google/marlin/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/google/marlin/proprietary/priv-app/embms/oem/config_params.xml:system/priv-app/embms/oem/config_params.xml \
     vendor/google/marlin/proprietary/priv-app/embms/oem/provisioning_params.xml:system/priv-app/embms/oem/provisioning_params.xml \
     vendor/google/marlin/proprietary/priv-app/embms/oem/verizon_config_params.txt:system/priv-app/embms/oem/verizon_config_params.txt
