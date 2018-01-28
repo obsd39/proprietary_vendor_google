@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so
 
 PRODUCT_PACKAGES += \
-    Tycho \
     VZWAPNLib \
     embms \
     ims \
@@ -71,7 +70,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DMService \
     DiagMon \
-    GCS \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
