@@ -73,7 +73,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
-    ModemService \
     OBDM_Permissions \
     OemDmTrigger \
     QtiTelephonyService \
