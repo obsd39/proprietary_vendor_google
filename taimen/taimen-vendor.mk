@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so
 
 PRODUCT_PACKAGES += \
+    EaselServicePrebuilt \
     VZWAPNLib \
     embms \
     ims \
