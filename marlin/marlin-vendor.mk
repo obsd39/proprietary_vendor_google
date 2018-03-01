@@ -49,10 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/google/marlin/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/google/marlin/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so \
-    vendor/google/marlin/proprietary/priv-app/embms/oem/config_params.xml:system/priv-app/embms/oem/config_params.xml \
-    vendor/google/marlin/proprietary/priv-app/embms/oem/provisioning_params.xml:system/priv-app/embms/oem/provisioning_params.xml \
-    vendor/google/marlin/proprietary/priv-app/embms/oem/verizon_config_params.txt:system/priv-app/embms/oem/verizon_config_params.txt
+    vendor/google/marlin/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so
 
 PRODUCT_PACKAGES += \
     Tycho \
@@ -71,27 +68,11 @@ PRODUCT_PACKAGES += \
     MyVerizonServices \
     OBDM_Permissions \
     OemDmTrigger \
-    QAS_DVC_MSP \
-    QtiTelephonyService \
-    RCSBootstraputil \
-    SSRestartDetector \
-    SecureExtAuthService \
     SprintDM \
     SprintHM \
-    TimeService \
     VerizonAuthDialog \
     VzwOmaTrigger \
     WfcActivation \
-    atfwd \
-    colorservice \
-    datastatusnotification \
-    embms \
-    fastdormancy \
-    ims \
-    imssettings \
     obdm_stub \
     qcrilmsgtunnel \
-    radioconfig \
-    shutdownlistener \
-    vzw_msdc_api \
     VerizonUnifiedSettings
