@@ -60,7 +60,6 @@ PRODUCT_PACKAGES += \
     EaselServicePrebuilt \
     Tycho \
     VZWAPNLib \
-    embms \
     ims \
     vzw_msdc_api \
     CNEService \
@@ -74,13 +73,9 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9340 \
     OBDM_Permissions \
     OemDmTrigger \
-    QtiTelephonyService \
-    SSRestartDetector \
     SprintDM \
     SprintHM \
-    TimeService \
     VzwOmaTrigger \
-    datastatusnotification \
     obdm_stub \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
