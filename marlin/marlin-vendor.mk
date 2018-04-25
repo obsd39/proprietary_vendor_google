@@ -76,4 +76,8 @@ PRODUCT_PACKAGES += \
     WfcActivation \
     obdm_stub \
     qcrilmsgtunnel \
-    VerizonUnifiedSettings
+    VerizonUnifiedSettings \
+    radioconfig \
+    shutdownlistener \
+    vzw_msdc_api \
+    libdmengine_32.so
