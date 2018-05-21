@@ -81,4 +81,5 @@ PRODUCT_PACKAGES += \
     radioconfig \
     shutdownlistener \
     vzw_msdc_api \
-    libdmengine_32.so
+    libdmengine_32.so \
+    com.google.android.camera.experimental2016
