@@ -312,21 +312,4 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdmengine_32.so
-LOCAL_MODULE_CLASS := FAKE
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := google
-include $(BUILD_SYSTEM)/base_rules.mk
-$(LOCAL_BUILT_MODULE): TARGET := /system/lib/libdmengine.so
-$(LOCAL_BUILT_MODULE): SYMLINK := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_SYSTEM)/priv-app/DMService/lib/arm/libdmengine.so
-$(LOCAL_BUILT_MODULE): $(LOCAL_PATH)/Android.mk
-$(LOCAL_BUILT_MODULE):
-	$(hide) mkdir -p $(dir $@)
-	$(hide) mkdir -p $(dir $(SYMLINK))
-	$(hide) rm -rf $@
-	$(hide) rm -rf $(SYMLINK)
-	$(hide) ln -sf $(TARGET) $(SYMLINK)
-	$(hide) touch $@
-
 endif
