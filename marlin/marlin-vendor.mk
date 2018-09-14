@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-marlin.xml:system/etc/permissions/privapp-permissions-marlin.xml \
     vendor/google/marlin/proprietary/etc/permissions/vzw_mvs_permissions.xml:system/etc/permissions/vzw_mvs_permissions.xml \
     vendor/google/marlin/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
+    vendor/google/marlin/proprietary/etc/sysconfig/pixel_2016_exclusive.xml:system/etc/sysconfig/pixel_2016_exclusive.xml \
     vendor/google/marlin/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/google/marlin/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/google/marlin/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -50,12 +51,16 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/google/marlin/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/google/marlin/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/google/marlin/proprietary/lib64/vendor.qti.atcmdfwd@1.0.so:system/lib64/vendor.qti.atcmdfwd@1.0.so \
+    vendor/google/marlin/proprietary/lib64/vendor.qti.qcril.am@1.0.so:system/lib64/vendor.qti.qcril.am@1.0.so \
     vendor/google/marlin/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so
 
 PRODUCT_PACKAGES += \
     Tycho \
     VZWAPNLib \
+    ims \
     CNEService \
     CarrierServices \
     CarrierSetup \
@@ -78,4 +83,5 @@ PRODUCT_PACKAGES += \
     obdm_stub \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
-    com.google.android.camera.experimental2016
+    com.google.android.camera.experimental2016 \
+    qcrilhook
