@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     ims \
     CNEService \
     CarrierServices \
+    CarrierSettings \
     CarrierSetup \
     ConnMO \
     DCMO \
