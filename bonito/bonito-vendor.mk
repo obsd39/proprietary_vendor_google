@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/lib/liblistenjni.so:system/lib/liblistenjni.so \
     vendor/google/bonito/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
     vendor/google/bonito/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/google/bonito/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/bonito/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/google/bonito/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/google/bonito/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
@@ -52,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/lib64/liblistenjni.so:system/lib64/liblistenjni.so \
     vendor/google/bonito/proprietary/lib64/liblistensoundmodel2.so:system/lib64/liblistensoundmodel2.so \
     vendor/google/bonito/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/google/bonito/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/bonito/proprietary/priv-app/EuiccGoogle/esim-full-v0.img:system/priv-app/EuiccGoogle/esim-full-v0.img \
     vendor/google/bonito/proprietary/priv-app/EuiccGoogle/esim-v1.img:system/priv-app/EuiccGoogle/esim-v1.img
 
