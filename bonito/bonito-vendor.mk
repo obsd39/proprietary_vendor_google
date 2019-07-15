@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/etc/permissions/features-verizon.xml:system/etc/permissions/features-verizon.xml \
     vendor/google/bonito/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/google/bonito/proprietary/etc/permissions/privapp-permissions-bonito.xml:system/etc/permissions/privapp-permissions-bonito.xml \
-    vendor/google/bonito/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
     vendor/google/bonito/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/google/bonito/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/google/bonito/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
