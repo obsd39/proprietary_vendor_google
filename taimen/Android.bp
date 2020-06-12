@@ -276,12 +276,6 @@ dex_import {
 }
 
 dex_import {
-	name: "embmslibrary",
-	owner: "google",
-	jars: ["proprietary/framework/embmslibrary.jar"],
-}
-
-dex_import {
 	name: "qcrilhook",
 	owner: "google",
 	jars: ["proprietary/framework/qcrilhook.jar"],
